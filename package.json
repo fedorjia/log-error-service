@@ -1,0 +1,27 @@
+{
+  "name": "log-error-service",
+  "version": "1.0.1",
+  "description": "error log service",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fedorjia/log-error-service.git"
+  },
+  "author": {
+    "name": "Fedor Jia"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-validator": "^5.3.0",
+    "helmet": "^3.9.0",
+    "mongodb": "^3.1.10",
+    "node-response-middleware": "^1.0.7"
+  },
+  "devDependencies": {}
+}
